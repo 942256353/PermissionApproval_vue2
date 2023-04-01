@@ -1,0 +1,332 @@
+$whiteColor: #fff;
+$greyColor: #d0d0d0;
+$padding: 20px;
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background-color: #e5e9ec;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+
+//login.vue
+.login-head {
+  .login-img {
+    width: 100%;
+    height: 500px;
+    background: url(../assets/img/bj-4.jpg) no-repeat center $whiteColor;
+  }
+
+  .about {
+    width: 500px;
+    background-color: $whiteColor;
+    padding: $padding;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    box-shadow: 0 3px 21px 2px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    text-align: center;
+
+    &>h3 {
+      margin: $padding 0;
+    }
+
+    &>.demo-ruleForm {
+      text-align: center;
+    }
+  }
+}
+
+//home
+.app-wrapper {
+  .app-breadcrumb {
+    // margin: 20px 20px 20px 20px;
+    padding: 5px 5px;
+    background-image: linear-gradient(to top, #edfad3ec, #69d3f3, #e0d294);
+    position: relative;
+    z-index: 99;
+
+    .el-breadcrumb {
+      display: inline-block;
+      padding-top: 5px;
+      .el-breadcrumb__item {
+        float: none;
+      }
+    }
+
+    &>.right-menu {
+      float: right;
+    }
+  }
+
+  .el-container {
+    height: 100%;
+
+    .aside {
+      background: $whiteColor;
+
+      .title {
+        line-height: 55px;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        transition: color .2s cubic-bezier(.645, .045, .355, 1);
+        color: #303133;
+      }
+
+      .el-menu {
+        border-right: none;
+        background-color: $whiteColor;
+        color: $whiteColor;
+      }
+    }
+  }
+}
+
+//main-container全局样式
+.app-container {
+  padding: $padding;
+
+  .sub-navbar {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    padding-right: $padding;
+    transition: 600ms ease position;
+    background: linear-gradient(90deg, rgba(32, 182, 249, 1) 0%, rgba(32, 182, 249, 1) 0%, rgba(33, 120, 241, 1) 100%, rgba(33, 120, 241, 1) 100%);
+
+    .subtitle {
+      font-size: $padding;
+      color: $whiteColor;
+    }
+
+    &.draft {
+      background: $greyColor;
+    }
+
+    &.deleted {
+      background: $greyColor;
+    }
+  }
+}
+
+.app-wrapper {
+  height: 100vh;
+}
+
+.content {
+  padding: $padding;
+  background: #f2f4f5;
+  min-height: calc(89vh);
+
+  .content-row {
+    margin-bottom: 10px;
+
+    .panel-group {
+      padding: 20px;
+
+      .card-panel-col {
+        margin-bottom: 21px;
+      }
+
+      .card-panel {
+        height: 109px;
+        cursor: pointer;
+        font-size: 12px;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        color: #fff;
+
+        .card-panel-description {
+          font-weight: bold;
+          text-align: center;
+          margin-top: 20px;
+
+          .card-panel-text {
+            line-height: 18px;
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 12px;
+          }
+
+          .card-panel-num {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .filter-container {
+    padding: $padding 0;
+  }
+}
+
+.bg-white {
+  background: $whiteColor;
+}
+
+.components-container {
+  margin: 30px 50px;
+  position: relative;
+}
+
+.pagination-container {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center
+}
+
+.el-table .warning-row {
+  background: oldlace;
+}
+
+.el-table .success-row {
+  background: #f0f9eb;
+}
+
+.el-breadcrumb__separator {
+  color: rgb(80, 83, 81);
+}
+
+//头部
+.el-header {
+  padding: 0;
+}
+
+//退出
+.exit {
+  margin-left: 10px;
+}
+
+//页签
+.tag {
+  margin-top: 10px;
+  height: 30px;
+  background-image: linear-gradient(to top, #94d3f3, #bbf5f5, #b9b9b9);
+  width: 100%;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+//头像
+.avatar {
+  float: right;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+//用户名
+.username {
+  float: right;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 190%;
+  margin: 0 10px;
+  font-weight: bold;
+  color: rgb(67, 80, 92);
+  font-family: Arial, Helvetica, sans-serif;
+}
+//角色
+.username .el-tag{
+  border-radius: 10px;
+  margin-left: 3px;
+}
+
+.mx-2 {
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+//分页
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+//菜单收缩
+.fold{
+  cursor: pointer;
+  float: left;
+  margin-top: 3.5px;
+}
+.fold i:hover{
+  color: #2ea591;
+}

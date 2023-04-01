@@ -1,24 +1,45 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import approvalApply from './modules/approvalApply'
 
 Vue.use(VueRouter)
 
-const routes = [
+/* 解决导航重复报错问题 */
+const originalPush = VueRouter.prototype.push
+VueRouter.prototype.push = function push (location) {
+  return originalPush.call(this, location).catch(err => err)
+}
+
+export const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    redirect: "/login"
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/Login.vue')
+  },
+  {
+    path: '/home',//布局
+    name: 'home',
+    redirect: "/index",
+    meta:{title:"企业首页"},
+    component: () => import('../layout/index.vue'),
+    // children: [
+    //   {
+    //     path: '/index',//企业首页
+    //     name: 'index',
+    //     component: () => import('../views/Home/index/index.vue')
+    //   },
+    //   approvalApply
+    // ]
   }
 ]
+
+// let HomeRoutes = routes.filter(v=>v.path==="/home")[0];
+// HomeRoutes.children = [];
+// initRoutes(items,HomeRoutes.children);
 
 const router = new VueRouter({
   routes

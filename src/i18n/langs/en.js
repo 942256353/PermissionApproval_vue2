@@ -1,0 +1,46 @@
+import enLocale from 'element-ui/lib/locale/lang/en'
+//英文
+export default {
+    "hello": "hello",
+    "home": "home",
+    "exit": "exit",
+    "lang":"lang",
+    "High":"High",
+    "Low":"Low",
+    "title1":"Brilliant enterprise growth",
+    "title2":"Enterprise Investment Return",
+    "title3":"Marketing Operations Services",
+    "title4":"Corporate reporting ratio",
+    "title5":"Market Return Ratio",
+    "title6":"Active employees of the enterprise",
+    "title7":"Accurate customer resources",
+    "title8":"Enterprise employee distribution",
+    "title9":"Annual employee turnover rate",
+    "title10":"World Sales Ranking",
+    "title11":"Enterprise Talent List",
+    "title12":"Proportion of employee transportation",
+    "nation":['China','','America','','Brazil','','Germany','','Britain','','Italy',''],
+
+    // 左侧菜单
+    "index":"index",
+    "approvalApply":"approvalApply",
+    "officeApply":"officeApply",
+    "travelApply":"travelApply",
+    "leaveApply":"leaveApply",
+    "approvalManage":"approvalManage",
+    "officeManage":"officeManage",
+    "travelManage":"travelManage",
+    "leaveManage":"leaveManage",
+    "approvalProcess":"approvalProcess",
+    "secondInstance":"secondInstance",
+    "lastInstance":"lastInstance",
+    "fileManage":"fileManage",
+    "powerManage":"powerManage",
+    "createUser":"createUser",
+    "userLists":"userLists",
+    "modifyPower":"modifyPower",
+    "test":"test",
+
+    //面包屑
+    "currentlLocation":"currentlLocation",
+}
