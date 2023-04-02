@@ -9,6 +9,9 @@ module.exports = defineConfig({
     open: true,
     port: 8088,
     host: 'localhost',
+    historyApiFallback: true,
+    allowedHosts: "all"
+    // "disableHostCheck":true,//设置跳过host检查
     // proxy:{}
   },
   //配置webpack
