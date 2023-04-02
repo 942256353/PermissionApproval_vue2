@@ -34,6 +34,8 @@
 权限管理：创建员工与审批员；设置审批员权限，比如某审批员设置拥有”一审“”二审“，模块展示只有此
 选项
 
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-fad9304526cdc14e7040f9201ce3b9f575d11bdabf5d187a8c2b32b6d31cba96)
+
 ## Project setup
 ```
 npm install
