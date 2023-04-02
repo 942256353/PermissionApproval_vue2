@@ -34,6 +34,18 @@
 权限管理：创建员工与审批员；设置审批员权限，比如某审批员设置拥有”一审“”二审“，模块展示只有此
 选项
 
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-a808a9275d5921ee40c2fc824c336fb7742031b761ca58ada1b7c46178cc2eaa)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-7e7705beb65671975d92b1273c7da997529a87c8b9962c47b593e7569be5b8ac)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-90052537718bc7b520dd0f5b73e372777f244b6c923b7b7d2c1f5f858aa437e5)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-409b06ee1c22e453003463dc404d875066f7ed371aefe21e3c57459f84f95e23)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-32a1e3ced8f96e50e3ff506716347638a6b9065809102b52b77276e3f0dee5f1)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-1da3ad1190b5b8246f10996f0da5f878de4c7847b488fa74604f908bf354c589)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-8e93951b5825f4c164ae81e35c262b47a96067782733e8726654793620f36c63)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-8273c147d995dc123595137cd266b25f39ae3108aa809ef77af915caadb2db76)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-4109976143501a5ee9f905a5a1983eb467b247d0a8c27a306a47567e06397362)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-7740476faf372fe47e3079a152d5f8e23e1cab7945962ec5f07710510039bf35)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-7deff4bb557f4c2e7639230f98c9dc5d129008576eb4cea1040c15d82ffea275)
+![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-f0917bfbcccbdbf201e0fae1064c5f3ab5a79a5bc14b7e8997e4216beed8b15c)
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-fad9304526cdc14e7040f9201ce3b9f575d11bdabf5d187a8c2b32b6d31cba96)
 
 ## Project setup
