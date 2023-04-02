@@ -7,7 +7,7 @@ module.exports = defineConfig({
   productionSourceMap: false,//设置为false,减少包大小，压缩处理等，但不利于调试
   devServer: {
     open: true,
-    port: 8088,
+    port: 8089,
     host: 'localhost',
     historyApiFallback: true,
     allowedHosts: "all"
