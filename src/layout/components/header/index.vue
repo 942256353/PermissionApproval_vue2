@@ -33,7 +33,7 @@
           effect="light"
           size="mini"
         >
-          {{ roles[0]?.name | role_nameFilter }}
+          {{ $t(`${roles[0]?.name}`)}}
         </el-tag>
       </div>
       <el-avatar

@@ -20,6 +20,9 @@ export default {
     "title11":"Enterprise Talent List",
     "title12":"Proportion of employee transportation",
     "nation":['China','','America','','Brazil','','Germany','','Britain','','Italy',''],
+    "administrator":"administrator",
+    "approve":"approve",
+    "input":"input",
 
     // 左侧菜单
     "index":"index",
