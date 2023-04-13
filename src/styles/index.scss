@@ -291,6 +291,16 @@ div:focus {
   background-color: #fff;
 }
 
+.fullscreen{
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 130%;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
 //用户名
 .username {
   float: right;

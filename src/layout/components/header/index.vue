@@ -20,10 +20,16 @@
       >
     </div>
     <div class="right-menu">
+      <div class="fullscreen">
+        <FullScreenVue
+          slot="fullscreen"
+          id="FullScreenVue"
+        ></FullScreenVue>
+      </div>
       <div class="username">
         <span>{{ username }}</span>
         <el-tag
-          :type="roles[0]?.name| role_nameStyle"
+          :type="roles[0]?.name | role_nameStyle"
           effect="light"
           size="mini"
         >
@@ -47,8 +53,9 @@ import { removeToken } from "@/utils/auth";
 import Lang from "./Lang.vue";
 import Tag from "./tag.vue";
 import { mapGetters } from "vuex";
+import FullScreenVue from "@/components/fullScreen";
 export default {
-  components: { Breadcrumb, Lang, Tag },
+  components: { Breadcrumb, Lang, Tag, FullScreenVue },
   props: {
     isCollapse: {
       type: Boolean,
@@ -58,7 +65,8 @@ export default {
   data() {
     return {
       username: "",
-      url:require('@/assets/img/avatar.png')
+      url: require("@/assets/img/avatar.png"),
+      fullscreen: false,
     };
   },
   mounted() {
