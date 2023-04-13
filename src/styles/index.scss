@@ -269,6 +269,11 @@ div:focus {
   padding: 0;
 }
 
+// 主体内容
+.el-main{
+  overflow-x: hidden;
+}
+
 //退出
 .exit {
   margin-left: 10px;
@@ -291,6 +296,7 @@ div:focus {
   background-color: #fff;
 }
 
+//全屏
 .fullscreen{
   float: right;
   display: flex;
@@ -300,6 +306,7 @@ div:focus {
   font-size: 20px;
   margin: 0 10px;
 }
+
 
 //用户名
 .username {
