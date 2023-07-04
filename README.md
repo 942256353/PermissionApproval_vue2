@@ -32,7 +32,7 @@
 
 #4
 权限管理：创建员工与审批员；设置审批员权限，比如某审批员设置拥有”一审“”二审“，模块展示只有此选项
-# 项目演示地址：http://121.43.36.101:9002/vue2/#/login      账号密码：admin admin@123
+# 项目演示地址：http://121.43.36.101:9002/vue2      账号密码：admin admin@123
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-a808a9275d5921ee40c2fc824c336fb7742031b761ca58ada1b7c46178cc2eaa)
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-7e7705beb65671975d92b1273c7da997529a87c8b9962c47b593e7569be5b8ac)
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-90052537718bc7b520dd0f5b73e372777f244b6c923b7b7d2c1f5f858aa437e5)
