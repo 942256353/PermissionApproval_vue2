@@ -5,6 +5,7 @@ const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 module.exports = defineConfig({
   transpileDependencies: true,//设置为true 高级语法向下兼容，false 不会
   productionSourceMap: false,//设置为false,减少包大小，压缩处理等，但不利于调试
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   devServer: {
     open: true,
     port: 8089,
@@ -97,7 +98,7 @@ module.exports = defineConfig({
           }
         })
       })
-  }
+  },
   // css:{ //scss样式全局配置
   //   loaderOptions:{
   //     scss:{

@@ -194,7 +194,7 @@
               :before-upload="beforeUpload"
               :on-remove="onRemove"
               list-type="picture"
-              style="width: 400px"
+              style="width: 100%"
               :file-list="fileList"
             >
               <el-button size="small" type="primary"

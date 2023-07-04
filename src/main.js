@@ -8,6 +8,8 @@ import "@/styles/index.scss"
 import '@/filters'
 import i18n from './i18n/i18n' //国际化
 import socketApi from './webSocket/socket'//引入socket.js文件
+
+import './auto-update'
 Vue.prototype.socketApi = socketApi //设为全局对象
 // import { Button, Select } from 'element-ui';
 // Vue.use(Button)

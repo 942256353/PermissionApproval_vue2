@@ -8,7 +8,7 @@ let wsConnectionOrder = {
   timeoutNum: null,
   //初始化webSocket长连接
   initWebSocket: function () {
-    this.$wsOrder = new WebSocket("ws://localhost:3002");
+    this.$wsOrder = new WebSocket("ws://121.43.36.101:8080");
     this.$wsOrder.onopen = this.wsOpen;
     this.$wsOrder.onclose = this.wsClose;
     this.$wsOrder.onmessage = this.wsMsg;

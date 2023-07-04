@@ -1,5 +1,6 @@
 <template>
   <div>
+    <el-scrollbar class="scrollbar-container">
       <el-tag
         v-for="(tag, i) in tags"
         :key="tag.url"
@@ -12,6 +13,7 @@
       >
         {{ $t(`${tag.name}`) }}
       </el-tag>
+    </el-scrollbar> 
   </div>
 </template>
 <script>
@@ -61,4 +63,9 @@ export default {
 };
 </script>
 <style scoped>
+.el-scrollbar{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
 </style>

@@ -1,6 +1,6 @@
 //WebSocket
 let WebSocket = require('ws');
-let port = 3002
+let port = 3004
 let wss = new WebSocket.Server({ port });
 
 // let randomOption = () => Math.floor(Math.random() * 750 + 50);
