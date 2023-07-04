@@ -1,11 +1,11 @@
 # vue2-project
 这是一套基于vue2+element-ui搭建的一套流程审批权限管理系统，构建工具用的vue-cli，其中涉及到一些第三方插件或组件有vue-router、vuex、vuex-persistedstate、axios、echarts、md5、vue-count-to、vue-i18n等等，打包优化主要gzip代码压缩、代码拆分、内网打包等方法。
 
-# 1
+#1
 项目介绍：流程审批权限系统为解决企业员工日常办公、差旅、请假等审批申请、管理而定制，企业员工提交申请
 后，企业审批员拥有“一审”“二审”“终审”的权限；超级管理员可管理所有权限，不同角色所能看到和操作的页面不用。
 
-# 2
+#2
 我们以常见的办公流程审批为例，向上级申请一台新电脑，
 申请状态：登录员工信息，提交申请人-申请日期-申请商品-商品数量-申请原因等信息。
 管理状态：申请管理中查看审批状态；可编辑、删除、提交申请数据；
@@ -27,12 +27,12 @@
 - 9-终审拒绝状态
 - 10-审批完成状态
 - 11-生成凭证状态
-# 3
+#3
 档案管理：申请成功，下载凭证；
 
-# 4
+#4
 权限管理：创建员工与审批员；设置审批员权限，比如某审批员设置拥有”一审“”二审“，模块展示只有此选项
-
+# 项目演示地址：http://121.43.36.101:9002/vue2/#/login      账号密码：admin admin@123
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-a808a9275d5921ee40c2fc824c336fb7742031b761ca58ada1b7c46178cc2eaa)
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-7e7705beb65671975d92b1273c7da997529a87c8b9962c47b593e7569be5b8ac)
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-90052537718bc7b520dd0f5b73e372777f244b6c923b7b7d2c1f5f858aa437e5)
