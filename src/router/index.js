@@ -42,7 +42,7 @@ export const routes = [
 // initRoutes(items,HomeRoutes.children);
 
 const router = new VueRouter({
-  // mode:'history',
+  mode:'history',
   // base:'/vue2/',
   routes
 })
