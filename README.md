@@ -51,7 +51,7 @@
 ![image](https://github.com/942256353/PermissionApproval_vue2/commit/6f4e9690ce73cabd868cfea5668e5584ee20b1f1#diff-fad9304526cdc14e7040f9201ce3b9f575d11bdabf5d187a8c2b32b6d31cba96)
 
 ## 项目演示地址
-http://43.138.152.177/
+http://43.138.152.177:8081/
 ## Project setup
 ```
 npm install
